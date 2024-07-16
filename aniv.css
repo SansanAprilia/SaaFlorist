@@ -1,0 +1,46 @@
+/* Warna Navbar */
+.navbar.bg-body-tertiary {
+  background-color:#ffc3e1 !important;
+}
+
+/* Logo jadi bulat */
+.navbar-brand img {
+    border-radius: 50%; 
+}
+
+/* agar melengkung ytnya */
+iframe {
+    max-width: 100%;
+    border-radius: 15px; 
+}
+
+/* judul nama bunga buat tebel */
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  /* warna button yang beli sekarang */
+  .card-price {
+    font-size: 1rem;
+    color: #555;
+  }
+
+  /* warna hijau buat card free */
+  .card-subscription {
+    font-size: 0.875rem;
+    color: #28a745;
+    margin-bottom: 0.5rem;
+  }
+
+  /* ngatur card supaya ttp konsisten ukuran 300px */
+  .card img {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  /* warna footer */
+  .bg-pink {
+    background-color: #ebb1ce; 
+}
+  

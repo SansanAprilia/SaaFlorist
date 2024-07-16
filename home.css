@@ -1,0 +1,27 @@
+/* Warna Navbar */
+  .navbar.bg-body-tertiary {
+    background-color:#ffc3e1 !important;
+  }
+
+/* Logo jadi bulat */
+.navbar-brand img {
+    border-radius: 50%; 
+}
+
+/* agar melengkung ytnya */
+iframe {
+    max-width: 100%;
+    border-radius: 15px; 
+}
+
+  /* warna footer */
+  .bg-pink {
+    background-color: #ebb1ce;
+}
+ 
+/* buat padding nya 0 jadi ga ketimpa sama css yg lain */
+.p-0 {
+  padding: 0 !important;
+}
+
+

@@ -1,0 +1,92 @@
+
+/* Warna Navbar */
+.navbar.bg-body-tertiary {
+  background-color:#ffc3e1 !important;
+}
+
+/* Logo jadi bulat */
+.navbar-brand img {
+  border-radius: 50%; 
+}
+
+/* buat si logo biar pas pada garis biru*/
+.activity-checkout .checkout-icon {
+  position: absolute;
+  top: -4px;
+  left: -24px
+}
+
+/* ini buat nampilin logo biru" */
+.activity-checkout .checkout-item {
+  position: relative;
+  padding-bottom: 24px;
+  padding-left: 35px;
+  border-left: 2px solid #f5f6f8
+}
+
+/* ini buat garis lurus panjnagn bawah */
+.activity-checkout .checkout-item:first-child {
+  border-color: #3b76e1
+}
+
+/* biar logo ga gepeng */
+.avatar {
+  height: 3rem;
+  width: 3rem
+}
+
+/* biar ga gepeng img bunga chekout */
+.avatar-lg {
+  height: 5rem;
+  width: 5rem
+}
+
+/* sama biar ga gepeng logo shoping */
+.avatar-title {
+  align-items: center;
+  background-color: #3b76e1;
+  color: #fff;
+  display: flex;
+  font-weight: 500;
+  height: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%
+}
+
+/* buat kotak" si payment */
+.card-radio {
+  background-color: #fff;
+  border: 2px solid #eff0f2;
+  border-radius: .75rem;
+  padding: .5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block
+}
+
+/* biar pas letak kotak payment pada posisi kotak masing" */
+.card-radio-label {
+  display: block
+}
+
+/* ini buat yang biru" pinggir payment */
+.card-radio-input {
+  display: none
+}
+
+/* nah ini si warnanya biru kotak pinggir payment */
+.card-radio-input:checked+.card-radio {
+  border-color: #3b76e1!important
+}
+
+
+/* buat text supaya ga garis bawah */
+a {
+  text-decoration: none!important;
+}
+
+
+
